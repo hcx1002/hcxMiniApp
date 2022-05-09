@@ -13,7 +13,7 @@ const xxlUrl="https://2846579.club:8080/xxl-job-admin/hcx/api/";
 //全局引用
 import md5 from '@/common/md5.js';
 //通用秘钥
-const key = '幻彩希';
+const key = '******';
 const encryp = function(data, timestamp) {
 	let temp;
 	temp = md5(data + timestamp).toLowerCase() + key;
